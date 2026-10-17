@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Saya | Ahmad Faishal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #FFF9E6 0%, #FFE8A3 45%, #FFD966 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(12px);
+      border-radius: 24px;
+      padding: 35px 28px;
+      max-width: 480px;
+      width: 100%;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 25px;
+      color: #222;
+    }
+
+    .biodata {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      background: #FFF8E7;
+      padding: 12px 16px;
+      border-radius: 12px;
+      border-left: 5px solid #FFB300;
+    }
+
+    .item .label {
+      font-size: 0.82rem;
+      color: #888;
+      font-weight: 600;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .item .value {
+      font-size: 1.05rem;
+      color: #333;
+      font-weight: 500;
+      word-break: break-word;
+    }
+
+    .back {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: color 0.3s;
+    }
+
+    .back:hover {
+      color: #FF8F00;
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 28px 20px;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Tentang Saya</h2>
+
+    <div class="biodata">
+      <div class="item">
+        <div class="label">NIS / NISN</div>
+        <div class="value">262703020070 / 0109098907</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Nama Lengkap</div>
+        <div class="value">Ahmad Faishal</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Tempat, Tanggal Lahir</div>
+        <div class="value">Bekasi, 27 Desember 2010</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Jenis Kelamin</div>
+        <div class="value">Laki-laki</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Agama</div>
+        <div class="value">Islam</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Alamat</div>
+        <div class="value">Puri Cendana Blok G6 No.33, RT 02/13, Sumber Jaya, Tambun Selatan, Bekasi</div>
+      </div>
+
+      <div class="item">
+        <div class="label">Pendidikan</div>
+        <div class="value">SMK Mitra Industri 03</div>
+      </div>
+    </div>
+
+    <a href="index.html" class="back">← Kembali ke Beranda</a>
+  </div>
+</body>
+</html>
